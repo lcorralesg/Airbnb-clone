@@ -19,6 +19,23 @@ struct ContentView: View {
                     Category(icon: "photo.tv", text: "Amazing")
                 }
             }
+            
+            List{
+                VStack{
+                    Image("item1")
+                        .frame(width: 342, height: 323)
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(12)
+                    HStack{
+                        Text("Harlingen, Netherlands")
+                            .fontWeight(.bold)
+                        Spacer()
+                        Image(systemName: "star.fill")
+                            .font(.system(size: 11))
+                        Text("4.76")
+                    }
+                }
+            }.listStyle(.inset)
         }
         .padding()
     }
