@@ -13,6 +13,7 @@
 		AA7326ED2AF59431005A83C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA7326EC2AF59431005A83C0 /* Preview Assets.xcassets */; };
 		AA7326F52AF59B8A005A83C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */; };
 		AA7326F82AF5A186005A83C0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F72AF5A186005A83C0 /* Category.swift */; };
+		AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F92AF5ACB0005A83C0 /* Places.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		AA7326EC2AF59431005A83C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7326F72AF5A186005A83C0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		AA7326F92AF5ACB0005A83C0 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				AA7326F72AF5A186005A83C0 /* Category.swift */,
+				AA7326F92AF5ACB0005A83C0 /* Places.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -163,6 +166,7 @@
 				AA7326E82AF5942F005A83C0 /* ContentView.swift in Sources */,
 				AA7326E62AF5942F005A83C0 /* airbnb_clone_bApp.swift in Sources */,
 				AA7326F82AF5A186005A83C0 /* Category.swift in Sources */,
+				AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

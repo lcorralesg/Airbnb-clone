@@ -18,26 +18,14 @@ struct ContentView: View {
                     Category(icon: "figure.golf", text: "Golfing")
                     Category(icon: "photo.tv", text: "Amazing")
                 }
-            }
-            
+            }.padding(.horizontal)
+            Divider()
             List{
-                VStack{
-                    Image("item1")
-                        .frame(width: 342, height: 323)
-                        .aspectRatio(contentMode: .fit)
-                        .cornerRadius(12)
-                    HStack{
-                        Text("Harlingen, Netherlands")
-                            .fontWeight(.bold)
-                        Spacer()
-                        Image(systemName: "star.fill")
-                            .font(.system(size: 11))
-                        Text("4.76")
-                    }
-                }
+                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
+                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
+                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
             }.listStyle(.inset)
         }
-        .padding()
     }
 }
 
