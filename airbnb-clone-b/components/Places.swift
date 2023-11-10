@@ -17,9 +17,9 @@ struct Places: View {
     var price: String
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 10){
+        VStack(alignment: .leading, spacing: 13){
             Image(image)
-                .frame(width: 342, height: 323)
+                .frame(width: 362, height: 323)
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(12)
             HStack{
@@ -39,6 +39,8 @@ struct Places: View {
 
 struct Places_Previews: PreviewProvider {
     static var previews: some View {
-        Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
-    }
+        List{
+            Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
+        }.listStyle(.inset)}
+    
 }

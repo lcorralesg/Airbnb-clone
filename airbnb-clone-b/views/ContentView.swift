@@ -12,11 +12,11 @@ struct ContentView: View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false){
                 HStack(spacing: 50){
-                    Category(icon: "airplane.circle", text: "OMG!")
-                    Category(icon: "beach.umbrella", text: "Beaches")
-                    Category(icon: "house.fill", text: "Tiny Home")
-                    Category(icon: "figure.golf", text: "Golfing")
-                    Category(icon: "photo.tv", text: "Amazing")
+                    Category(icon: "ovni", text: "OMG!")
+                    Category(icon: "beaches", text: "Beaches")
+                    Category(icon: "home", text: "Tiny Home")
+                    Category(icon: "golf", text: "Golfing")
+                    Category(icon: "landscape", text: "Amazing")
                 }
             }.padding(.horizontal)
             Divider()

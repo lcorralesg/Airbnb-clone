@@ -13,17 +13,18 @@ struct Category: View {
     
     var body: some View {
         VStack{
-            Image(systemName: icon)
+            Image(icon)
                 .frame(width: 28, height: 28)
                 .font(.system(size: 28))
             Text(text)
                 .font(.system(size: 12, weight: .semibold))
+                .foregroundStyle(.gray)
         }
     }
 }
 
 struct Category_Previews: PreviewProvider {
     static var previews: some View {
-        Category(icon: "airplane.circle.fill", text: "OMG!")
+        Category(icon: "home", text: "OMG!")
     }
 }
