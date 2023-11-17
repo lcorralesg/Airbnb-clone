@@ -20,6 +20,7 @@
 		AA7326F52AF59B8A005A83C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */; };
 		AA7326F82AF5A186005A83C0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F72AF5A186005A83C0 /* Category.swift */; };
 		AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F92AF5ACB0005A83C0 /* Places.swift */; };
+		AAAC39332B080BBE0008DE90 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC39322B080BBE0008DE90 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,7 @@
 		AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7326F72AF5A186005A83C0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AA7326F92AF5ACB0005A83C0 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		AAAC39322B080BBE0008DE90 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				AA5D11D82AFED4590052BE13 /* ProfileView.swift */,
 				AA5D11DA2AFED4640052BE13 /* TripsView.swift */,
 				AA5D11DC2AFED4B90052BE13 /* InboxView.swift */,
+				AAAC39322B080BBE0008DE90 /* MapView.swift */,
 			);
 			path = views;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				AA7326E82AF5942F005A83C0 /* ContentView.swift in Sources */,
 				AA5D11D72AFED4470052BE13 /* WishlistView.swift in Sources */,
 				AA7326E62AF5942F005A83C0 /* airbnb_clone_bApp.swift in Sources */,
+				AAAC39332B080BBE0008DE90 /* MapView.swift in Sources */,
 				AA7326F82AF5A186005A83C0 /* Category.swift in Sources */,
 				AA5D11D52AFED2CD0052BE13 /* MainView.swift in Sources */,
 				AA5D11D92AFED4590052BE13 /* ProfileView.swift in Sources */,

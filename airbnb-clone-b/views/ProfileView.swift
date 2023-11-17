@@ -48,13 +48,15 @@ struct ProfileView: View {
             Divider()
             HStack{
                 Image(systemName: "waveform.path")
+                
                 Text("Some info is shown in its original language")
+                        .font(.system(size: 15))
             }
-            .padding(.bottom, 10)
             Text("Traslate")
-                .bold()
-                .underline()
-                .padding(.bottom, 30)
+                    .bold()
+                    .underline()
+                    .padding(.leading, 30)
+            
             Text("Matt confirmed")
                 .font(
                     .title

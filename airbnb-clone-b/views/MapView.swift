@@ -1,14 +1,14 @@
 //
-//  TripsView.swift
+//  MapView.swift
 //  airbnb-clone-b
 //
-//  Created by MAC40 on 10/11/23.
+//  Created by MAC40 on 17/11/23.
 //
 
 import SwiftUI
 import MapKit
 
-struct TripsView: View {
+struct MapView: View {
     @State private var region = MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: -12.04552, longitude: -76.95264), span: MKCoordinateSpan(latitudeDelta: 0.02, longitudeDelta: 0.02))
 
     var body: some View {
@@ -63,8 +63,8 @@ struct TripsView: View {
     }
 }
 
-struct TripsView_Previews: PreviewProvider {
+struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        TripsView()
+        MapView()
     }
 }
