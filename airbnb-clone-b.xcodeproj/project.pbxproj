@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA2333512B1153A80006D3D9 /* WishDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2333502B1153A80006D3D9 /* WishDescription.swift */; };
+		AA2333532B11570F0006D3D9 /* AutoScroller.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA2333522B11570F0006D3D9 /* AutoScroller.swift */; };
 		AA5D11D52AFED2CD0052BE13 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D11D42AFED2CD0052BE13 /* MainView.swift */; };
 		AA5D11D72AFED4470052BE13 /* WishlistView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D11D62AFED4470052BE13 /* WishlistView.swift */; };
 		AA5D11D92AFED4590052BE13 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5D11D82AFED4590052BE13 /* ProfileView.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AA2333502B1153A80006D3D9 /* WishDescription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishDescription.swift; sourceTree = "<group>"; };
+		AA2333522B11570F0006D3D9 /* AutoScroller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AutoScroller.swift; sourceTree = "<group>"; };
 		AA5D11D42AFED2CD0052BE13 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		AA5D11D62AFED4470052BE13 /* WishlistView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishlistView.swift; sourceTree = "<group>"; };
 		AA5D11D82AFED4590052BE13 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
@@ -117,6 +121,8 @@
 				AA7326F72AF5A186005A83C0 /* Category.swift */,
 				AA7326F92AF5ACB0005A83C0 /* Places.swift */,
 				AA5D11DE2AFED9E80052BE13 /* TabItem.swift */,
+				AA2333502B1153A80006D3D9 /* WishDescription.swift */,
+				AA2333522B11570F0006D3D9 /* AutoScroller.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -199,7 +205,9 @@
 				AA7326F82AF5A186005A83C0 /* Category.swift in Sources */,
 				AA5D11D52AFED2CD0052BE13 /* MainView.swift in Sources */,
 				AA5D11D92AFED4590052BE13 /* ProfileView.swift in Sources */,
+				AA2333512B1153A80006D3D9 /* WishDescription.swift in Sources */,
 				AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */,
+				AA2333532B11570F0006D3D9 /* AutoScroller.swift in Sources */,
 				AA5D11DD2AFED4B90052BE13 /* InboxView.swift in Sources */,
 				AA5D11DF2AFED9E80052BE13 /* TabItem.swift in Sources */,
 				AA5D11DB2AFED4640052BE13 /* TripsView.swift in Sources */,
