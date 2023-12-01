@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var contentViewModel = ContentViewModel()
     var body: some View {
         VStack {
             ScrollView(.horizontal, showsIndicators: false){
@@ -20,10 +21,8 @@ struct ContentView: View {
                 }
             }.padding(.horizontal)
             Divider()
-            List{
-                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
-                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
-                Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.000 total")
+            List(contentViewModel.places){ place in
+                Places(image: place.image_url, city: "\(place.location.city),", country: place.location.country, stars: "\(place.rating)", description: place.name, date: place.date, price: "$\(place.price) total")
             }.listStyle(.inset)
         }
     }

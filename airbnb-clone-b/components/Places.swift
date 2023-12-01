@@ -10,7 +10,8 @@ import SwiftUI
 struct Places: View {
     
     var image: String
-    var name: String
+    var city: String
+    var country: String
     var stars : String
     var description: String
     var date: String
@@ -18,13 +19,20 @@ struct Places: View {
     
     var body: some View {
         VStack(alignment: .leading, spacing: 13){
-            Image(image)
-                .frame(width: 362, height: 323)
-                .aspectRatio(contentMode: .fit)
-                .cornerRadius(12)
+            AsyncImage( url: URL(string: image)) { image in
+                image.resizable()
+            } placeholder: {
+                ProgressView()
+            }
+            .frame(width: 360, height: 300)
+            .cornerRadius(20)
             HStack{
-                Text(name)
-                    .fontWeight(.bold)
+                HStack(spacing: 2){
+                    Text(city)
+                        .fontWeight(.bold)
+                    Text(country)
+                        .fontWeight(.bold)
+                }
                 Spacer()
                 Image(systemName: "star.fill")
                     .font(.system(size: 11))
@@ -40,7 +48,7 @@ struct Places: View {
 struct Places_Previews: PreviewProvider {
     static var previews: some View {
         List{
-            Places(image: "item1", name: "Harlingen, Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
+            Places(image: "https://cdn.tiqets.com/wordpress/blog/wp-content/uploads/2017/08/03134557/24-hours-in-new-york-1-1024x570.jpg", city: "Harlingen,", country: "Netherlands", stars: "4.76", description: "Professional Host", date: "18-23 Dec", price: "$1.055 total")
         }.listStyle(.inset)}
     
 }
