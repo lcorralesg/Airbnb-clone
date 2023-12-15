@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import MapKit
 
 struct Airbnb : Codable{
     var places : [Place]
@@ -19,9 +20,18 @@ struct Place : Codable, Identifiable{
     let image_url : String
     let date : String
     let price : Double
+    let latitude: Double
+    let longitude: Double
+    
 }
 
 struct Location : Codable{
     let country : String
     let city : String
+}
+
+struct PlaceCoordinate: Identifiable {
+    let id = UUID()
+    let name: String
+    let coordinate: CLLocationCoordinate2D
 }

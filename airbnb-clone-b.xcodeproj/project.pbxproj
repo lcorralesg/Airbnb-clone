@@ -24,6 +24,8 @@
 		AA7326F52AF59B8A005A83C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */; };
 		AA7326F82AF5A186005A83C0 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F72AF5A186005A83C0 /* Category.swift */; };
 		AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA7326F92AF5ACB0005A83C0 /* Places.swift */; };
+		AA9595142B2D00C800ABA080 /* TripsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9595132B2D00C800ABA080 /* TripsViewModel.swift */; };
+		AA9595182B2D0EB500ABA080 /* TripPlaceItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA9595172B2D0EB500ABA080 /* TripPlaceItem.swift */; };
 		AAAC39332B080BBE0008DE90 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAAC39322B080BBE0008DE90 /* MapView.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,6 +48,8 @@
 		AA7326F42AF59B8A005A83C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AA7326F72AF5A186005A83C0 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
 		AA7326F92AF5ACB0005A83C0 /* Places.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Places.swift; sourceTree = "<group>"; };
+		AA9595132B2D00C800ABA080 /* TripsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripsViewModel.swift; sourceTree = "<group>"; };
+		AA9595172B2D0EB500ABA080 /* TripPlaceItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TripPlaceItem.swift; sourceTree = "<group>"; };
 		AAAC39322B080BBE0008DE90 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -72,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				AA57955D2B1A826C00DA8E7C /* ContentViewModel.swift */,
+				AA9595132B2D00C800ABA080 /* TripsViewModel.swift */,
 			);
 			path = viewmodel;
 			sourceTree = "<group>";
@@ -145,6 +150,7 @@
 				AA5D11DE2AFED9E80052BE13 /* TabItem.swift */,
 				AA2333502B1153A80006D3D9 /* WishDescription.swift */,
 				AA2333522B11570F0006D3D9 /* AutoScroller.swift */,
+				AA9595172B2D0EB500ABA080 /* TripPlaceItem.swift */,
 			);
 			path = components;
 			sourceTree = "<group>";
@@ -229,10 +235,12 @@
 				AA5D11D92AFED4590052BE13 /* ProfileView.swift in Sources */,
 				AA2333512B1153A80006D3D9 /* WishDescription.swift in Sources */,
 				AA7326FA2AF5ACB0005A83C0 /* Places.swift in Sources */,
+				AA9595182B2D0EB500ABA080 /* TripPlaceItem.swift in Sources */,
 				AA57955C2B1A7FC600DA8E7C /* airbnb.swift in Sources */,
 				AA2333532B11570F0006D3D9 /* AutoScroller.swift in Sources */,
 				AA5D11DD2AFED4B90052BE13 /* InboxView.swift in Sources */,
 				AA5D11DF2AFED9E80052BE13 /* TabItem.swift in Sources */,
+				AA9595142B2D00C800ABA080 /* TripsViewModel.swift in Sources */,
 				AA5D11DB2AFED4640052BE13 /* TripsView.swift in Sources */,
 				AA57955E2B1A826C00DA8E7C /* ContentViewModel.swift in Sources */,
 			);

@@ -1,14 +1,26 @@
 //
-//  ContentViewModel.swift
+//  TripsViewModel.swift
 //  airbnb-clone-b
 //
-//  Created by MAC40 on 1/12/23.
+//  Created by MAC40 on 15/12/23.
 //
 
 import Foundation
+import MapKit
 
-class ContentViewModel: ObservableObject {
-    @Published var places = [Place]()
+class TripsViewModel: ObservableObject {
+    
+    @Published var annotations: [PlaceCoordinate] = [PlaceCoordinate]()
+
+    var places = [Place]() {
+        didSet {
+            for place in places {
+                let coordinate = CLLocationCoordinate2D(latitude: place.latitude, longitude: place.longitude)
+                let annotation = PlaceCoordinate(name: place.name, coordinate: coordinate)
+                annotations.append(annotation)
+            }
+        }
+    }
 
     init() {
         guard let url = URL(string: "https://alexa-docs.onrender.com/places") else { return }
